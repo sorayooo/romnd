@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>인덱스 페이지</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+  <script src="js/jquery-3.6.3.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/index.js"></script>
+</head>
+
+<body>
+  <!-- header 영역 시작 -->
+  <header>
+    <div id="gnb_top">
+      <nav id="gnb_top_inner">
+        <ul>
+          <li>
+            <a href="login.html">로그인</a>
+          </li>
+          <li>
+            <a href="join.html">회원가입</a>
+          </li>
+          <li>
+            <a href="#">마이페이지</a>
+          </li>
+          <li>
+            <a href="#">주문조회</a>
+          </li>
+          <li class="basket">
+            <a href="#">장바구니</a>
+            <div class="basket_circle">
+              <p>0</p>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="header_top">
+      <div id="header_top_inner">
+        <div id="header_top_first">
+          <h1>
+            <a href="index.html">
+              <img src="images/logo.png" alt="로고">
+            </a>
+          </h1>
+
+          <div id="header_search_area">
+            <fieldset>
+              <legend>검색어 입력</legend>
+              <form action="#">
+                <input type="search" class="saerch_bar" placeholder="검색하실 상품명을 입력해주세요">
+                <input type="image" src="images/loupe.png" alt="검색" class="search_img">
+              </form>
+            </fieldset>
+          </div>
+
+          <ul>
+            <li><a href="#">특가</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">베스트</a></li>
+            <li><a href="#">신제품</a></li>
+            <li><a href="#">라이브</a></li>
+          </ul>
+        </div>
+        <div id="header_top_second">
+          <ul>
+            <li><a href="category.html">BASE</a></li>
+            <li><a href="#">EYE</a></li>
+            <li><a href="#">LIP</a></li>
+            <li><a href="#">NAIL</a></li>
+            <li><a href="#">TOOL</a></li>
+            <li><a href="#">SET</a></li>
+            <li><a href="#">EDITION</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header 영역 종료 -->
+
+  <!-- content 영역 시작 -->
+  <section id="banner_slider">
+    <div class="slide_box">
+      <img class="arrow left_arrow" src="images/left-arrow.png" alt="왼쪽으로 이동 화살표">
+      <img class="arrow right_arrow" src="images/right-arrow.png" alt="오른쪽으로 이동 화살표">
+
+      <div class="slide">
+        <a href="#">
+          <img src="images/main_banner_slider_01.jpeg" alt="메인 배너 슬라이드">
+        </a>
+        <a href="#">
+          <img src="images/main_banner_slider_02.jpeg" alt="메인 배너 슬라이드">
+        </a>
+        <a href="#">
+          <img src="images/main_banner_slider_03.jpeg" alt="메인 배너 슬라이드">
+        </a>
+        <a href="#">
+          <img src="images/main_banner_slider_04.jpeg" alt="메인 배너 슬라이드">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="banner_slider2">
+    <div id="banner_slider2_inner">
+      <article id="youtube_area">
+        <iframe src="https://www.youtube.com/embed/dQ9LMAcHzP8" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </article>
+
+      <div id="banner_slider2_header">
+        <h3>[롬앤 NEW Ve easy #수분충전라인]</h3>
+        <p>
+          메마른 일상을 수분으로 채워줄
+          <br>
+          Ve easy #수분충전라인
+        </p>
+      </div>
+
+      <div id="banner_slider2_content">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="images/main_banner_slider2_01.jpeg" alt="아이템">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/main_banner_slider2_02.jpeg" alt="아이템">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/main_banner_slider2_03.jpeg" alt="아이템">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/main_banner_slider2_04.jpeg" alt="아이템">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="event">
+    <h2>EVENT</h2>
+    <ul>
+      <li>
+        <a href="#">
+          <img src="images/event_01.jpeg" alt="이벤트">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/event_02.png" alt="이벤트">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/event_03.jpeg" alt="이벤트">
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="best_seller">
+    <h2>BEST SELLER</h2>
+
+    <ul>
+      <li>
+        <a href="#">
+          <img src="images/product_01.jpeg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 듀이풀 워터 틴트</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">8,900</span>
+              <span class="origin_price">13,000</span>
+              <span class="discount">~31.5%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.9 (3,179)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/product_02.jpeg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 글래스팅 워터 글로스</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">8,900</span>
+              <span class="origin_price">13,000</span>
+              <span class="discount">~31.5%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.5 (1,583)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="product1.html">
+          <img src="images/product_03.jpeg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 베어 워터 쿠션</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">19,900</span>
+              <span class="origin_price">28,000</span>
+              <span class="discount">~29%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.9 (1,709)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/product_04.jpeg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 베어 워터 쿠션 리필</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">14,900</span>
+              <span class="origin_price">17,000</span>
+              <span class="discount">~12%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.9 (198)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/Bestimg05.jpg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 글래스팅 멜팅 밤</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">9,900</span>
+              <span class="origin_price">15,000</span>
+              <span class="discount">~24%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.8 (3,114)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/Bestimg06.jpg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 시스루 베일라이터</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">9,900</span>
+              <span class="origin_price">15,000</span>
+              <span class="discount">~24%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.8 (971)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/Bestimg07.jpg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 제로 매트 립스틱</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">12,000</span>
+              <span class="origin_price">9,600</span>
+              <span class="discount">~20%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.9 (2,275)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/Bestimg08.jpg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 베러 댄 치크</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">12,000</span>
+              <span class="origin_price">9,600</span>
+              <span class="discount">~20%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.8 (998)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/Bestimg09.jpg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 무드 페블 네일</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">8,000</span>
+              <span class="origin_price">6,400</span>
+              <span class="discount">~20%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.8 (240)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/Bestimg10.jpg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 한올 쉐이드 라이너</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">11,000</span>
+              <span class="origin_price">7,900</span>
+              <span class="discount">~28%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.3 (450)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/Bestimg15.jpg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 베러 댄 팔레트</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">30,000</span>
+              <span class="origin_price">22,900</span>
+              <span class="discount">~24%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.9 (1,379)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/Bestimg18.jpg" alt="상품">
+          <div class="product_info">
+            <h3 class="best_seller_title">롬앤 베러 댄 아이즈</h3>
+            <p class="best_seller_content">
+              <span class="discount_price">18,000</span>
+              <span class="origin_price">13,900</span>
+              <span class="discount">~23%</span>
+            </p>
+            <p class="best_seller_rating">
+              <img src="images/star.png" alt="평점">
+              <span>4.5 (1,032)</span>
+            </p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="archiving">
+    <h2>rom&nd ARCHIVING</h2>
+    <ul>
+      <li>
+        <a href="#">
+          <img src="images/archiving_01.jpeg" alt="아카이브">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/archiving_02.jpeg" alt="아카이브">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/archiving_03.jpeg" alt="아카이브">
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- content 영역 종료 -->
+
+  <!-- footer 영역 시작 -->
+  <footer>
+    <section id="customer">
+      <div id="customer_inner">
+        <ul>
+          <li>
+            <img src="images/footer_info.png" alt="롬앤 고객센터">
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/marketing.png" alt="마케팅/제휴 문의">
+            </a>
+            <a href="#">
+              <img src="images/global_expert.png" alt="해외 수출 문의">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/rmd_footer_store.jpg" alt="롬앤 오프라인 매장">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/rmd_footer_benefit.jpg" alt="온라인 멤버쉽 혜택">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="footer_copy_area">
+      <div id="footer_copy_inner">
+        <div id="sns_info">
+          <h4>
+            <img src="images/rmd_footer_logo.jpg" alt="하단 로고">
+          </h4>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="images/youtube_box_3.png" alt="유튜브">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/footer_sns_insta.jpg" alt="유튜브">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/footer_sns_blog.jpg" alt="유튜브">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/footer_sns_facebook.jpg" alt="유튜브">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/footer_sns_katalk.jpg" alt="유튜브">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div id="company_info">
+          <p class="company_title">
+            <strong>(주)롬앤</strong>
+          </p>
+          <p class="company_content">
+            서울특별시 종로구 Tel: 02.1234.5678 Fax: 02.1234.5678 사업자등록번호: 123-45-67890
+          </p>
+          <p class="company_content">
+            통신판매신고번호: 제2022-서울종로-1234호 대표자 : 김롬앤
+          </p>
+          <div id="company_policy">
+            <a href="#">개인보호정책</a>
+            <a href="#">이용약관동의</a>
+          </div>
+          <p class="company_copy">
+            &copy; 2022 SRFAMILY, CO.,LTD.All Right Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer 영역 시작 -->
+
+  <!-- arrow 영역 시작 -->
+  <div id="arrow">
+    <a href="#">
+      <img src="images/upload.png" alt="위로가기">
+    </a>
+  </div>
+  <!-- arrow 영역 종료 -->
+</body>
+
+</html>

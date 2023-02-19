@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+/* content 영역 시작 */
+/* banner_slider 영역 시작 */
+#banner_slider {
+    width: 100%;
+    height: 380px;
+}
+
+.slide_box {
+    position: relative;
+    width: 1300px;
+    height: 380px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+    width: 24px;
+    object-fit: contain;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.left_arrow {
+    left: 10px;
+}
+
+.right_arrow {
+    right: 10px;
+}
+
+.slide {
+    position: relative;
+    width: 5213px;
+    height: 380px;
+    float: left;
+}
+
+.slide img {
+    width: 1300px;
+    object-fit: contain;
+}
+
+/* banner_slider 영역 종료 */
+
+/* banner_slider2 영역 시작 */
+#banner_slider2 {
+    width: 1300px;
+    height: 589px;
+    margin: 0 auto;
+}
+
+#banner_slider2_inner {
+    width: 100%;
+    height: 100%;
+    padding: 60px 0;
+}
+
+#youtube_area {
+    width: 55%;
+    height: 100%;
+    float: left;
+}
+
+#youtube_area iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#banner_slider2_header {
+    width: 45%;
+    height: 30%;
+    background-color: #9c9c9b;
+    float: right;
+    padding: 40px;
+}
+
+#banner_slider2_header h3 {
+    color: #facdd2;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+#banner_slider2_header p {
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.1em;
+}
+
+#banner_slider2_content {
+    width: 45%;
+    height: 70%;
+    float: right;
+}
+
+#banner_slider2_content li {
+    width: 50%;
+    height: 164px;
+    float: left;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+#banner_slider2_content li img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+#banner_slider2_content li:hover img {
+    transform: scale(1.1);
+}
+
+/* main_banner_slider2 영역 종료 */
+
+/* event 영역 시작 */
+#event {
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#event h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#event ul {
+    margin-top: 25px;
+}
+
+#event li {
+    width: 420px;
+    margin-right: 20px;
+    float: left;
+}
+
+#event li:nth-child(3n) {
+    margin-right: 0;
+}
+
+#event li img {
+    width: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+}
+
+#event li:hover img {
+    opacity: .7;
+}
+
+/* event 영역 종료 */
+
+/* best_seller 영역 시작 */
+#best_seller {
+    width: 1300px;
+    margin: 0 auto;
+    height: 1615px;
+}
+
+#best_seller h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#best_seller ul {
+    margin-top: 30px;
+}
+
+#best_seller li {
+    display: inline-block;
+    width: 297px;
+    margin-right: 33px;
+    margin-bottom: 22px;
+}
+
+#best_seller li:hover {
+    border: 1px solid #ccc;
+}
+
+#best_seller li:nth-child(4n) {
+    margin-right: 0;
+}
+
+#best_seller li img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#best_seller .product_info {
+    width: 100%;
+    padding: 20px 10px;
+}
+
+#best_seller .best_seller_title {
+    font-size: 16px;
+    color: #333;
+}
+
+#best_seller .best_seller_content {
+    padding: 10px 0;
+}
+
+#best_seller .discount_price {
+    font-size: 26px;
+    font-weight: bold;
+    color: #222;
+}
+
+#best_seller .origin_price {
+    font-size: 19px;
+    font-weight: normal;
+    color: #999;
+    text-decoration: line-through;
+    vertical-align: 2px;
+}
+
+#best_seller .discount {
+    font-size: 26px;
+    color: #d62136;
+}
+
+#best_seller .best_seller_rating img {
+    width: 16px;
+    height: 16px;
+    padding-top: 2px;
+}
+
+#best_seller .best_seller_rating {
+    font-size: 14px;
+    color: #777;
+    white-space: nowrap;
+}
+
+/* best_seller 영역 종료 */
+
+/* archiving 영역 시작 */
+#archiving {
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#archiving h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#archiving ul {
+    margin-top: 30px;
+}
+
+#archiving li {
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+}
+
+#archiving li img {
+    width: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+}
+
+#archiving li:hover img {
+    transform: scale(1.2);
+}
+
+/* archiving 영역 종료 */
+/* content 영역 종료 */
